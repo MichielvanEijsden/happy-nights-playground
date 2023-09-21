@@ -6,16 +6,16 @@ ul {
         Header
 ////////////////////////*/
 .top-bar{
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
 }
 .top-bar-button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: center;
     flex-basis: 500px;
     flex-shrink: 1;
     flex-grow: 0;
@@ -28,8 +28,6 @@ header {
     flex-basis: 20vh;
     justify-content: center;
     align-items: center;
-
-
 }
 
 /*////////////////////////
