@@ -51,7 +51,7 @@ header {
 }
 .header-text{
     display: flex;
-    
+
 }
 /*////////////////////////
         main
@@ -71,8 +71,8 @@ main {
     background-color: hsla(360, 100%, 0%, 0.7);
     border-radius: 37px;
     justify-content: left;
-    flex-basis: 300px;
-    flex-shrink: 0;
+    flex-basis: 30vh;
+    flex-shrink: 1;
 
 }
 .index-left ul{
@@ -98,8 +98,8 @@ main {
     background-color: hsla(360, 100%, 0%, 0.7);
     border-radius: 37px;
     justify-content: right;
-    flex-basis: 300px;
-    flex-shrink: 0;
+    flex-basis: 30vh;
+    flex-shrink: 1;
     flex-grow: 0;
 }
 
