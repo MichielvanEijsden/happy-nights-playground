@@ -107,6 +107,13 @@ a, a:visited, a:link {
     color: deepskyblue;
 }
 
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid red;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
 /*////////////////////////
         Footer
 ////////////////////////*/
