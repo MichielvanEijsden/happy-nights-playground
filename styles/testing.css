@@ -1,0 +1,30 @@
+a {
+    color: #D84282;
+}
+
+a::after {
+    content: "→";
+    display: inline-block;
+}
+div {
+    margin: 20px;
+    width: 120px;
+    height: 80px;
+    background-color: #D84282;
+    border-radius: 10px;
+    position: relative;
+}
+
+div::before {
+    ;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 20px solid /*#D84282*/ black;
+    border-bottom: 13px solid transparent;
+    position: absolute;
+    left: -20px;
+    top: 26px;
+}
